@@ -36,6 +36,10 @@
         <span class="align-super text-xs">6</span>USTC &emsp;
     </p>
 
+
+    <!-- 邮箱 -->
+    <p class="text-center p-2">nannanzhang@link.cuhk.edu.cn</p>
+
     <!-- 链接 -->
     <div class="mx-auto flex flex-row items-start justify-center gap-2 p-4">
         <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Robust-MVTON_Learning_Cross-Pose_Feature_Alignment_and_Fusion_for_Robust_Multi-View_CVPR_2025_paper.pdf" target="_blank" class="inline-flex items-center px-4 py-2 rounded-full bg-black text-white">
@@ -58,50 +62,69 @@
     </div>
 
     <!-- Teaser -->
-    <img src="./images/Teaser.png" class="p-8">
+    <img src="./images/Teaser.png" class="max-w-5xl mx-auto">
 
 
     <!-- Abstract -->
-    <h2 class="text-center text-4xl font-semibold tracking-tight p-10">Abstract</h2>
-    <p class="mx-auto max-w-3xl text-justify text-lg">
+    <h2 class="text-center text-4xl font-semibold tracking-tight p-5 mt-5">Abstract</h2>
+    <p class="mx-auto max-w-5xl text-justify text-lg">
         This paper tackles the emerging challenge of multi-view virtual try-on, utilizing both front- and back-view clothing images as inputs. Extending frontal try-on methods to a multi-view context is not straightforward. Simply concatenating the two input views or encoding their features for a generative model, such as a diffusion model, often fails to produce satisfactory results. The main challenge lies in effectively extracting and fusing meaningful clothing features from these input views. Existing explicit warpingbased methods, which establish direct correspondence between input and target views, tend to introduce artifacts, particularly when there is a significant disparity between the input and target views. Conversely, implicit encodingbased methods often lose spatial information about clothing, resulting in outputs that lack detail. To overcome these challenges, we propose Robust-MVTON, an end-toend method for robust and high-quality multi-view try-ons. Our approach introduces a novel cross-pose feature alignment technique to guide the fusion of clothing features and incorporates a newly designed loss function for training. With the fused multi-scale clothing features, we employ a coarse-to-fine diffusion model to generate realistic and detailed results. Extensive experiments conducted on the Deepfashion and MPV datasets affirm the superiority of our method, achieving state-of-the-art performance.
     </p>
 
 
     <!-- Pipeline -->
-    <h2 class="text-3xl font-semibold tracking-tight p-10">Robust-MVTON Pipeline</h2>
-    <img src="./images/Frame.png" class="p-4 max-w-3xl mx-auto">
-
-    <!-- Results -->
-    <h2 class="text-3xl font-semibold tracking-tight p-10">Results Gallery</h2>
-    <div class="grid grid-cols-1">
-        <img src="./images/Our_Result1.png" class="">
-        <img src="./images/Our_Result2.png" class="">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-semibold tracking-tight p-4 mt-6">Robust-MVTON Pipeline</h2>
+        <img src="./images/Frame.png" class="mx-auto">
     </div>
+
+
 
 
     <!-- Comparison result -->
-    <h2 class="text-3xl font-semibold tracking-tight p-10">Comparison results</h2>
-    <div class="grid grid-cols-1">
-        <img src="./images/comp1.png" class="">
-        <img src="./images/comp2.png" class="">
-        <img src="./images/comp3.png" class="">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-semibold tracking-tight p-4 mt-6">Comparison Results</h2>
+        <div class="grid grid-cols-1 gap-4">
+            <img src="./images/comp1.png" class="">
+            <img src="./images/comp2.png" class="">
+            <img src="./images/comp3.png" class="">
+        </div>
     </div>
 
-    <!-- In the Wild -->
-    <h2 class="text-3xl font-semibold tracking-tight p-10">In the Wild</h2>
-    <div class="grid grid-cols-1">
-        <img src="./images/in_the_wild1.png" class="">
-        <img src="./images/in_the_wild2.png" class="">
-        <img src="./images/in_the_wild3.png" class="">
+
+
+    <!-- Results -->
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-semibold tracking-tight p-4 mt-6">Results Gallery</h2>
+        <div class="grid grid-cols-1 gap-4">
+            <img src="./images/Our_Result1.png" class="">
+            <img src="./images/Our_Result2.png" class="">
+        </div>
     </div>
+
+
+
+
+
+
+    <!-- In the Wild -->
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-semibold tracking-tight p-10">In the Wild</h2>
+        <div class="grid grid-cols-1 gap-4">
+            <img src="./images/in_the_wild1.png" class="">
+            <img src="./images/in_the_wild2.png" class="">
+            <img src="./images/in_the_wild3.png" class="">
+        </div>
+    </div>
+
 
 
 
 
     <!-- BibTeX -->
+    <div class="max-w-5xl mx-auto">
     <h2 class="text-3xl font-semibold tracking-tight p-10">BibTeX</h2>
-        <div class="mx-auto">
+        <div class="mx-auto max-w-5xl">
         <pre class="bg-gray-100 text-black p-4 rounded-lg overflow-x-auto">
             <code class="font-mono">
     @inproceedings{zhang2025robust,
@@ -113,7 +136,9 @@
     }
             </code>
         </pre>
+
     </div>
+
 
 
 

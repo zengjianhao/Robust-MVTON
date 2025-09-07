@@ -567,10 +567,6 @@ video {
   margin-right: 0.5rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -730,6 +726,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-8 {
